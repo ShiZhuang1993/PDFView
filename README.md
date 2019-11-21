@@ -70,7 +70,7 @@ public class RemotePDFActivity extends AppCompatActivity implements DownloadFile
 
 
 3.-创建一个RemotePDFViewPager对象
-String url = "http://www.cals.uidaho.edu/edComm/curricula/CustRel_curriculum/content/sample.pdf";
+String url = "https://web.stanford.edu/~xgzhou/zhou_book2017.pdf";
 RemotePDFViewPager remotePDFViewPager =
       new RemotePDFViewPager(context, url, this);
       
