@@ -35,7 +35,9 @@ pdfViewPager = new PDFViewPager(this, "sample.pdf");
 
 
 2b。-直接在XML布局上声明
+
 它将自动具有缩放和平移功能
+
 <es.voghdev.pdfviewpager.library.PDFViewPager
     android:id="@+id/pdfViewPager"
     android:layout_width="match_parent"
@@ -81,6 +83,7 @@ public class RemotePDFActivity extends AppCompatActivity implements DownloadFile
 3.-创建一个RemotePDFViewPager对象
 
 String url = "https://web.stanford.edu/~xgzhou/zhou_book2017.pdf";
+
 RemotePDFViewPager remotePDFViewPager =
       new RemotePDFViewPager(context, url, this);
       
