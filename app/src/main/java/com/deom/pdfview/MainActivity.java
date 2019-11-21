@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity implements DownloadFile.List
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         pdf_root = (RelativeLayout) findViewById(R.id.remote_pdf_root);
-        //设置监听
+        //设置监听v
         final DownloadFile.Listener listener = this;
         remotePDFViewPager = new RemotePDFViewPager(this, url, listener);
         remotePDFViewPager.setId(R.id.pdfViewPager);
