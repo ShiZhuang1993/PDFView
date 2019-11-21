@@ -2,8 +2,10 @@
 
 本人练习写 做了一下AndroidX适配
 
-安装:
+安装：
+
 在您的project / build.gradle中添加这一行
+
 allprojects {
 		repositories {
 			...
