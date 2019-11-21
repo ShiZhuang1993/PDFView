@@ -12,7 +12,9 @@ allprojects {
 			maven { url 'https://jitpack.io' }
 		}
 	}
+	
   在您的app / build.gradle中添加这一行
+  
   dependencies {
 	        implementation 'com.github.ShiZhuang1993:PDFView:1.0'
 	}
